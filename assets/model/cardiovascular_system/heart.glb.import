@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/heart.glb-100bc25403868d10cf98cea7cda0618d.scn"
+path="res://.import/heart.glb-3847fbc37e3b1cf02a65d42cb7a4927d.scn"
 
 [deps]
 
-source_file="res://assets/model/cardiovascular_system/heart/heart.glb"
-dest_files=[ "res://.import/heart.glb-100bc25403868d10cf98cea7cda0618d.scn" ]
+source_file="res://assets/model/cardiovascular_system/heart.glb"
+dest_files=[ "res://.import/heart.glb-3847fbc37e3b1cf02a65d42cb7a4927d.scn" ]
 
 [params]
 

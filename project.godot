@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="yozpex"
+run/main_scene="res://src/workbench/alpha/Alpha.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Config="*res://src/utils/config.gd"
 
 [gui]
 
