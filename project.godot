@@ -13,9 +13,15 @@ _global_script_classes=[ {
 "class": "Draggable",
 "language": "GDScript",
 "path": "res://src/utils/draggable.gd"
+}, {
+"base": "StaticBody",
+"class": "IStaticBody",
+"language": "GDScript",
+"path": "res://src/utils/IStaticBody.gd"
 } ]
 _global_script_class_icons={
-"Draggable": ""
+"Draggable": "",
+"IStaticBody": ""
 }
 
 [application]
@@ -37,6 +43,11 @@ common/drop_mouse_on_gui_input_disabled=true
 Rotate={
 "deadzone": 0.5,
 "events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+Click={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
  ]
 }
 
