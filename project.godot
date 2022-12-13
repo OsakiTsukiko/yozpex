@@ -28,6 +28,10 @@ _global_script_class_icons={
 
 config/name="yozpex"
 run/main_scene="res://src/main_scenes/Start.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="yozpex"
+boot_splash/image="res://icon.png"
+boot_splash/bg_color=Color( 0.196078, 0.196078, 0.196078, 1 )
 config/icon="res://icon.png"
 
 [autoload]
