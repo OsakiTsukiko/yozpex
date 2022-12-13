@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/model/cardiovascular_system/systemic_arteries/systemic_arteries.glb" type="PackedScene" id=1]
+
+[node name="systemic_arteries" instance=ExtResource( 1 )]
