@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "Spatial",
 "class": "Interactable",
 "language": "GDScript",
-"path": "res://src/utils/interactable.gd"
+"path": "res://src/utils/Interactable.gd"
 }, {
 "base": "StaticBody",
 "class": "Organ",
@@ -27,7 +27,6 @@ _global_script_class_icons={
 [application]
 
 config/name="yozpex"
-run/main_scene="res://src/workbench/alpha/Alpha.tscn"
 config/icon="res://icon.png"
 
 [autoload]
