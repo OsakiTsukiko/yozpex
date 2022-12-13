@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pulmonary_veins.obj-1822b1b8431b8644cdb69e790c5cedaa.mesh"
+
+[deps]
+
+files=[ "res://.import/pulmonary_veins.obj-1822b1b8431b8644cdb69e790c5cedaa.mesh" ]
+
+source_file="res://assets/obj_model/cardiovascular_system/pulmonary_veins.obj"
+dest_files=[ "res://.import/pulmonary_veins.obj-1822b1b8431b8644cdb69e790c5cedaa.mesh", "res://.import/pulmonary_veins.obj-1822b1b8431b8644cdb69e790c5cedaa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
