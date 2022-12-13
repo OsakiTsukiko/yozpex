@@ -10,18 +10,18 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Spatial",
-"class": "Draggable",
+"class": "Interactable",
 "language": "GDScript",
-"path": "res://src/utils/draggable.gd"
+"path": "res://src/utils/interactable.gd"
 }, {
 "base": "StaticBody",
-"class": "IStaticBody",
+"class": "Organ",
 "language": "GDScript",
-"path": "res://src/utils/IStaticBody.gd"
+"path": "res://src/utils/Organ.gd"
 } ]
 _global_script_class_icons={
-"Draggable": "",
-"IStaticBody": ""
+"Interactable": "",
+"Organ": ""
 }
 
 [application]
