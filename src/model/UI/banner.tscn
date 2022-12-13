@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/model/UI/banner/banner.glb" type="PackedScene" id=1]
+
+[node name="banner" instance=ExtResource( 1 )]
+
+[node name="Central canal" parent="." index="222"]
+visible = false
+
+[node name="Anterior horn of spinal cord" parent="." index="224"]
+visible = false
+
+[node name="Intermediolateral nucleus" parent="." index="227"]
+visible = false
+
+[node name="Intermediomedial nucleus" parent="." index="228"]
+visible = false
+
+[node name="Lateral intermediate substance" parent="." index="229"]
+visible = false
+
+[node name="Nucleus proprius" parent="." index="230"]
+visible = false
+
+[node name="Posterior horn of spinal cord" parent="." index="231"]
+visible = false
+
+[node name="Spinal reticular process" parent="." index="232"]
+visible = false
+
+[node name="Anterior corticospinal tract" parent="." index="233"]
+visible = false
+
+[node name="Anterior fasciculus proprius" parent="." index="234"]
+visible = false
+
+[node name="Lateral vestibulospinal tract" parent="." index="235"]
+visible = false
+
+[node name="Medial reticulospinal tract" parent="." index="236"]
+visible = false
+
+[node name="Medial vestibulospinal tract" parent="." index="237"]
+visible = false
+
+[node name="Tectospinal tract" parent="." index="238"]
+visible = false
+
+[node name="Anterior spinothalamic tract" parent="." index="239"]
+visible = false
+
+[node name="Lateral spinothalamic tract" parent="." index="240"]
+visible = false
+
+[node name="Spinotectal tract" parent="." index="241"]
+visible = false
+
+[node name="Anterior spinocerebellar tract" parent="." index="242"]
+visible = false
+
+[node name="Lateral corticospinal tract" parent="." index="243"]
+visible = false
+
+[node name="Lateral fasciculus proprius" parent="." index="244"]
+visible = false
+
+[node name="Lateral reticulospinal tract" parent="." index="245"]
+visible = false
+
+[node name="Posterior spinocerebellar tract" parent="." index="246"]
+visible = false
+
+[node name="Rubrospinal tract" parent="." index="247"]
+visible = false
+
+[node name="Cuneate fasciculus" parent="." index="248"]
+visible = false
+
+[node name="Gracile fasciculus" parent="." index="249"]
+visible = false
+
+[node name="Posterior fasciculus proprius" parent="." index="250"]
+visible = false
+
+[node name="Posterolateral tract" parent="." index="251"]
+visible = false
+
+[node name="White matter of spinal cord" parent="." index="252"]
+visible = false
