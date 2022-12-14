@@ -9,10 +9,10 @@ var last_position = Vector2()
 var new_scale: Vector3 = scale
 
 func _process(delta):
-	if (Input.is_action_just_pressed("Rotate")):
+	if (Input.is_action_just_pressed("right_click")):
 		is_rotating = true
 		last_position = get_viewport().get_mouse_position()
-	if (Input.is_action_just_released("Rotate")):
+	if (Input.is_action_just_released("right_click")):
 		is_rotating = false
 
 	if (is_rotating):

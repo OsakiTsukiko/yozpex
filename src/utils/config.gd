@@ -9,7 +9,8 @@ var state: Dictionary = {
 	
 	"workbench": {
 		"body": {
-			"is_legend_open": false
+			"is_legend_open": false,
+			"legend_split_offset": 0.0
 		}
 	}
 }
