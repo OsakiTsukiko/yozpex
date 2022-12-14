@@ -36,8 +36,8 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Config="*res://src/utils/config.gd"
 Utils="*res://src/utils/utils.gd"
+Config="*res://src/utils/config.gd"
 
 [gui]
 
