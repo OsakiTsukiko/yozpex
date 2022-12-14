@@ -5,7 +5,7 @@ export (Texture) var viz_false_icon
 
 onready var model_cont = $Models
 onready var legend_node = $HUD/Control/MarginContainer/VBoxContainer/HSplitContainer/Legend
-onready var model_tree = $HUD/Control/MarginContainer/VBoxContainer/HSplitContainer/Legend/HBoxContainer/Content/Tree
+onready var model_tree = $HUD/Control/MarginContainer/VBoxContainer/HSplitContainer/Legend/HBoxContainer/Content/MarginContainer/Tree
 
 onready var camera = $Camera
 onready var cam_pos_f = $CamPosF
