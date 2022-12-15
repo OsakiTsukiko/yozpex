@@ -53,9 +53,11 @@ func find_in_legend_by_ti(item: TreeItem) -> Utils.Segment:
 func _ready():
 	if (Config.state.workbench.body.is_legend_open):
 		legend_node.visible = true
+		legend_btn.pressed = true
 		cam_pos = cam_pos_l
 	else:
 		legend_node.visible = false
+		legend_btn.pressed = false
 		cam_pos = cam_pos_f
 	model_cont._x_rot_active = !xaxis_btn.pressed
 	model_cont._y_rot_active = !yaxis_btn.pressed
